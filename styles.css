@@ -1,0 +1,21 @@
+div{
+  border-top: 1px solid #dee2e6;
+}
+
+.slab{
+  background-color: #393e46;
+  color: #fff;
+}
+
+.tatasteel{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 1%;
+  top: 1%;
+}
+
+.table td{
+  padding: 2px;
+  border-top: 1px solid #dee2e6;
+}

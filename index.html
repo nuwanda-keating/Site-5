@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <!-- font awesome cdn -->
+  <script src="https://kit.fontawesome.com/8e479aeda2.js" crossorigin="anonymous"></script>
+
+  <title>Slab Site 5</title>
+</head>
+
+<body>
+
+  <body>
+    <h1 class="display-4 slab" align="center"><img class="tatasteel" src="https://www.tatasteel.com/media/3397/ts_logo_guidelines04.jpg" alt="TataSteel_Image">SLAB YARD MANAGEMENT SYSTEM, KPO</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#"><i class="fas fa-home"></i></a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#" role="button">Yard</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#" role="button">Material</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#" role="button">Crane</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#" role="button">Equipment</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#" role="button">Mutation</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#" role="button">Schedule</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#" role="button">Administration</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#" role="button">Interface</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#" role="button">Reports</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <!-- topNavigation2 -->
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="internal-tab" data-toggle="tab" href="#internal" role="tab">Internal Mutation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" id="hsm-tab" data-toggle="tab" href="#hsm" role="tab">HSM Shift Report</a>
+      </li>
+    </ul>
+    <!-- The tabs div -->
+
+    <div class="tab-content" id="myTabContent">
+      <!-- Home tab div -->
+      <div class="tab-pane fade" id="home" role="tabpanel">
+        <div class="">
+          <h1>Home</h1>
+        </div>
+      </div>
+
+      <!-- Internal Mutation -->
+      <div class="tab-pane fade" id="internal" role="tabpanel">
+
+        <div class="">
+          <h1>Internal</h1>
+        </div>
+
+      </div>
+
+      <!-- HSM Shift Report -->
+      <div class="tab-pane fade show active" id="hsm" role="tabpanel">
+
+        <!-- heading -->
+        <div>
+          <h1 class="h1">Slab Yard HSM Monthly Report</h1>
+        </div>
+
+        <!-- navigation 2 parts -->
+        <div class="btn-group float-right" role="group">
+          <button type="button" class="btn btn-dark btn-sm heading1">Export to Excel</button>
+          <button type="button" class="btn btn-dark btn-sm heading1">HSM Shift Report</button>
+        </div>
+
+        <nav class="navbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <span>From date </span>
+              <input type="date" id="birthdaytime" name="birthdaytime">
+              <span>To date</span>
+              <input type="date" id="birthdaytime" name="birthdaytime">
+              <button type="button" class="btn btn-dark btn-sm">Search</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Main body Table with required side dropdown -->
+
+        <table class="table">
+          <tr>
+            <th></th>
+            <th>Slab Id</th>
+            <th>Width</th>
+            <th>Thickness</th>
+            <th>Length</th>
+            <th>Quality</th>
+          </tr>
+          <tr>
+            <td>
+              <div class="btn-group dropright">
+                <button type="button" class="btn btn-outline-secondary btn-sm dropdown-toggle" data-toggle="dropdown"></button>
+                <div class="dropdown-menu" style="min-width: 100vh;">
+                  <table class="table">
+                    <tr>
+                      <th>Sl No.</th>
+                      <th>Slab Id</th>
+                      <th>Width</th>
+                      <th>Thickness</th>
+                      <th>Thickness</th>
+                      <th>Thickness</th>
+                      <th>Thickness</th>
+                      <th>Thickness</th>
+                      <th>Thickness</th>
+                      <th>Length</th>
+                      <th>Quality</th>
+                    </tr>
+                    <tr>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                    </tr>
+                    <tr>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                    </tr>
+                    <tr>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="btn-group dropright">
+                <button type="button" class="btn btn-outline-secondary btn-sm dropdown-toggle" data-toggle="dropdown"></button>
+                <div class="dropdown-menu" style="min-width: 100vh;">
+                  <table class="table">
+                    <tr>
+                      <th>Sl No.</th>
+                      <th>Slab Id</th>
+                      <th>Width</th>
+                      <th>Thickness</th>
+                      <th>Thickness</th>
+                      <th>Thickness</th>
+                      <th>Thickness</th>
+                      <th>Thickness</th>
+                      <th>Thickness</th>
+                      <th>Length</th>
+                      <th>Quality</th>
+                    </tr>
+                    <tr>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                    </tr>
+                    <tr>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                    </tr>
+                    <tr>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="btn-group dropright">
+                <button type="button" class="btn btn-outline-secondary btn-sm dropdown-toggle" data-toggle="dropdown"></button>
+                <div class="dropdown-menu" style="min-width: 100vh;">
+                  <table class="table">
+                    <tr>
+                      <th>Sl No.</th>
+                      <th>Slab Id</th>
+                      <th>Width</th>
+                      <th>Thickness</th>
+                      <th>Thickness</th>
+                      <th>Thickness</th>
+                      <th>Thickness</th>
+                      <th>Thickness</th>
+                      <th>Thickness</th>
+                      <th>Length</th>
+                      <th>Quality</th>
+                    </tr>
+                    <tr>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                    </tr>
+                    <tr>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                    </tr>
+                    <tr>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Lorem</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                      <td>Thickness</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+            <td>Lorem</td>
+          </tr>
+        </table>
+
+      </div>
+
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</body>
+
+</html>
